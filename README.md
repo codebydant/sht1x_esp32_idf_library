@@ -17,11 +17,19 @@ This code is taken from: sht1x-library-Arduino and it was modified for the esp-i
      Output example:     
      ~~~~~~~~~~~~~~~~~
       SHT1X Sensor   
-     ~~~~~~~~~~~~~~~~~
-    -> reading data...
-    -> Temperature:  615.65 °C 
-    -> Temperature:  1140.13 F 
-    -> Humidity: 12159.24% 
+    ~~~~~~~~~~~~~~~~~
+    -> setting data pin 27 
+    -> setting sck pin 2 
+
+    ***************************
+    -> Temperature:  21.11 °C 
+    -> Temperature:  70.03 F 
+    -> Humidity: -12.09% 
+
+    -> Temperature:  21.10 °C 
+    -> Temperature:  70.02 F 
+    -> Humidity: -12.09% 
+
     
  ## How to include in your own project
  
@@ -48,7 +56,7 @@ This code is taken from: sht1x-library-Arduino and it was modified for the esp-i
     
     e.g.
     
-      #include "path-to-sht1x-header/sht1x.h"
+      #include "include/sht1x.h"
       
    ## Example
    <img src="./example/example1.png" align="center" height="850" width="600"><br>
