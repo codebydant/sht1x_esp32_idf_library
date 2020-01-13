@@ -51,7 +51,7 @@ This code is taken from: sht1x-library-Arduino and it was modified for the esp-i
       #include "path-to-sht1x-header/sht1x.h"
       
    ## Example
-   <img src="./example/example1.png" align="center" height="800" width="400"><br>
+   <img src="./example/example1.png" align="center" height="800" width="700"><br>
       
    
     
