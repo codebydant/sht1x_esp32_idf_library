@@ -1,7 +1,7 @@
 # SHT1X LIBRARY FOR ESP-IDF Programming
 This is a C library for the SHT1X Temperature-Humidity sensor for esp-idf framework
 
-This code is taken from: sht1x-library-Arduino and it was modified for the esp-idf framework https://github.com/sanket2994/sht1x-library-Arduino
+This code is taken from: sht1x-library-Arduino and https://github.com/practicalarduino/SHT1x, and it was modified for the esp-idf framework https://github.com/sanket2994/sht1x-library-Arduino
 
 <img src="./pins-interface/sht15.png" align="center" height="500" width="900"><br>
 
