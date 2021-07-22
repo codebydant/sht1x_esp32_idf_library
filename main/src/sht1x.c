@@ -52,11 +52,11 @@ float readHumidity(int data, int clk) {
 //   const float t1 = 0.01;    // for 12 bit
 //   const float t2 = 0.00008; // for 12 bit
   
-  const float C1 = -4.0;       // for 12 Bit
-  const float C2 =  0.0405;    // for 12 Bit
-  const float C3 = -0.0000028; // for 12 Bit
-  const float T1 =  0.01;      // for 14 Bit @ 5V
-  const float T2 =  0.00008;   // for 14 Bit @ 5V
+  const float c1 = -4.0;       // for 12 Bit
+  const float c2 =  0.0405;    // for 12 Bit
+  const float c3 = -0.0000028; // for 12 Bit
+  const float t1 =  0.01;      // for 14 Bit @ 5V
+  const float t2 =  0.00008;   // for 14 Bit @ 5V
 
   // get the sensor reading raw data for humidity
   obtVal = getHumidityfrmSensor(data, clk);
